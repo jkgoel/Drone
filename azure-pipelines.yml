@@ -1,11 +1,11 @@
 variables:
-  ServiceConnectionName: '<serviceconnection>'
-  Location: '<location>'
-  ResourceGroup: '<resourcegroup>'
-  AppName: '<appName>' # less or equal than 11 chars
+  ServiceConnectionName: 'Drone_Conn'
+  Location: 'East US'
+  ResourceGroup: 'Demo'
+  AppName: 'Drone' # less or equal than 11 chars
   DeployAzureResources: false
   DeployableSourceBranch: 'refs/heads/staging'
-  SlotName: '<slotName>'
+  SlotName: 'Staging'
 
 name: $(Date:yyyyMMdd)$(Rev:.rr)
 
